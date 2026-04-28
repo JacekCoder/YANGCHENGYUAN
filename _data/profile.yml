@@ -32,11 +32,13 @@ portrait_url: /assets/images/photos/portrait.jpg
 
 education:
 - name: Nanyang Technological University
+  logo: /assets/images/badges/NTU.png
   position: >-
     School of Mechanical and Aerospace Engineering <br/>
     M.Sc. in Mechanical Engineering
   date: Aug. 2024 - present
 - name: South China University of Technology
+  logo: /assets/images/badges/SCUT.png
   position: B.Eng. in Mechanical Engineering
   date: Sep. 2020 - Jun. 2024
 
