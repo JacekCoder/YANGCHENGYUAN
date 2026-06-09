@@ -90,3 +90,187 @@ div.lazy {
     font-family: Source Code Pro, monospace;
 }
 
+.mapmyvisitors-widget {
+    display: inline-block;
+    margin-top: 0.25rem;
+    width: 150px;
+    max-width: 100%;
+}
+.mapmyvisitors-widget img {
+    width: 100%;
+    height: auto;
+}
+
+/* ===== Site accent & homepage polish ===== */
+:root {
+    --accent: #2f6fed;
+    --accent-dark: #1d4ed8;
+}
+.text-accent,
+.section-icon {
+    color: var(--accent) !important;
+}
+
+/* Homepage portrait: rounded rectangle + soft shadow */
+.profile-portrait {
+    border-radius: 0.85rem;
+    box-shadow: 0 4px 16px rgba(20, 40, 80, 0.14);
+}
+
+/* Social icons: muted by default, accent on hover */
+.profile-socials a {
+    color: #495057;
+    transition: color 0.15s ease, transform 0.15s ease;
+}
+.profile-socials a:hover {
+    color: var(--accent);
+    transform: translateY(-2px);
+}
+
+/* Section headings get a touch of weight */
+.experience-card h6 {
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+
+/* ===== Projects & Awards page ===== */
+.pa-page .pa-group-title {
+    font-weight: 700;
+    margin: 0.5rem 0 1rem;
+}
+.pa-page .pa-section-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f0f1f3;
+}
+
+/* Patents / simple lists */
+.pa-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.pa-list > li {
+    padding: 0.35rem 0;
+    line-height: 1.5;
+}
+.pa-list > li + li {
+    border-top: 1px solid #f3f4f6;
+}
+
+/* Honors & Awards: name left, year right */
+.pa-awards {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.pa-awards > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.45rem 0;
+}
+.pa-awards > li + li {
+    border-top: 1px solid #f3f4f6;
+}
+.pa-award-date {
+    color: #2f6fed;
+    font-weight: 600;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+/* Vertical timeline */
+.pa-timeline {
+    position: relative;
+    padding-left: 1.85rem;
+}
+.pa-timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 0.4rem;
+    bottom: 0.4rem;
+    width: 2px;
+    background: #e6e8ec;
+}
+.pa-timeline-item {
+    position: relative;
+    margin-bottom: 1.75rem;
+}
+.pa-timeline-item:last-child {
+    margin-bottom: 0;
+}
+.pa-timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -1.85rem;
+    margin-left: 1px;
+    top: 0.3rem;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #2f6fed;
+    box-shadow: 0 0 0 3px #fff;
+}
+.pa-date {
+    display: inline-block;
+    color: #2f6fed;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.15rem;
+}
+.pa-title {
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0 0 0.1rem;
+}
+.pa-role {
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.pa-bullets {
+    padding-left: 1.1rem;
+    margin-bottom: 0;
+}
+.pa-bullets > li {
+    margin-bottom: 0.2rem;
+    line-height: 1.5;
+}
+
+/* Image gallery inside timeline items */
+.pa-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 0.85rem;
+}
+.pa-gallery figure {
+    margin: 0;
+}
+.pa-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+}
+.pa-gallery figcaption {
+    text-align: center;
+    font-size: 0.78rem;
+    font-style: italic;
+    color: #9aa0a6;
+    margin-top: 0.35rem;
+}
+@media (max-width: 575px) {
+    .pa-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+

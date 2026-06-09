@@ -3,7 +3,7 @@ secondary_name: "杨承沅"
 navbar_name: "Yang Chengyuan"
 
 positions:
-- name: M.Sc. Student in Mechanical Engineering
+- name: Master Student in Mechanical Engineering
 - name: Nanyang Technological University
 
 
@@ -11,7 +11,7 @@ email: "CYANG027@ntu.edu.sg"
 # cv_link: /assets/cv.pdf
 # gscholar: REPLACE_WITH_GOOGLE_SCHOLAR_ID
 github: JacekCoder
-linkedin: chengyuan-yang
+linkedin: chengyuan-y-7353b029b
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: true
@@ -20,25 +20,29 @@ short_bio: >-
     I am an M.Sc. student in Mechanical Engineering at <strong>Nanyang Technological University</strong> (NTU), Singapore.
     I received my B.Eng. in Mechanical Engineering from <strong>South China University of Technology</strong> (SCUT) in 2024.
   </p>
-  <p>
-    My research focuses on <strong>Robotics</strong>, <strong>Physical Human-Robot Interaction (pHRI)</strong>,
-    and <strong>Control Systems</strong>. I am currently working on personalized soft-body simulation
-    and standardized Real2Sim pipelines for ergonomic gait assistance and rehabilitation robotics.
+  <p class="mb-2">
+    My research lies at the intersection of <strong>Robotics</strong> and
+    <strong>Physical Human-Robot Interaction (pHRI)</strong>. My interests span:
   </p>
+  <ul class="mb-0">
+    <li><strong>Physics-based</strong> &amp; <strong>human-in-the-loop</strong> simulation</li>
+    <li><strong>System identification</strong> &amp; Real2Sim modeling</li>
+    <li><strong>Control systems</strong> &amp; <strong>reinforcement learning</strong></li>
+  </ul>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/pic.png
 # portrait_caption: >-
 #   Optional caption.
 
 education:
 - name: Nanyang Technological University
-  logo: /assets/images/badges/NTU.png
+  logo: /assets/images/badges/NTU_Singapore_idN7_vkBNH_1.svg
   position: >-
     School of Mechanical and Aerospace Engineering <br/>
     M.Sc. in Mechanical Engineering
   date: Aug. 2024 - present
 - name: South China University of Technology
-  logo: /assets/images/badges/SCUT.png
+  logo: /assets/images/badges/SCUT.jpg
   position: B.Eng. in Mechanical Engineering
   date: Sep. 2020 - Jun. 2024
 
@@ -46,8 +50,6 @@ awards:
 - name: MAE Graduate Study Grant, NTU
   date: 2024
 - name: Second-class Scholarship, SCUT
-  date: 2023
-- name: Third Prize, Mathematical Contest in Modeling (MCM)
   date: 2023
 - name: National First Prize, Formula Student Autonomous China (FSAC)
   date: 2022
