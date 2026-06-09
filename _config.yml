@@ -16,6 +16,7 @@
 baseurl: "/YANGCHENGYUAN" # the subpath of your site, e.g. /blog
 url: "https://jacekcoder.github.io"
 # http://localhost:4000/YANGCHENGYUAN/
+# ./serve.sh
 
 # Build settings
 markdown: kramdown
