@@ -133,6 +133,15 @@ div.lazy {
     margin-bottom: 0.6rem;
 }
 
+/* Clickable publication titles */
+.pub-title-link {
+    color: var(--accent);
+}
+.pub-title-link:hover {
+    color: var(--accent-dark);
+    text-decoration: underline;
+}
+
 /* ===== Projects & Awards page ===== */
 .pa-page .pa-group-title {
     font-weight: 700;

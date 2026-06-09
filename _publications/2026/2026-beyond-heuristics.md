@@ -1,5 +1,6 @@
 ---
 title:          "Beyond Heuristics: A Standardized Real2Sim Pipeline for Physical Human-Robot Interaction in Human-in-the-Loop Simulation"
+link:           "https://jacekcoder.github.io/Bioweb2026/"
 date:           2026-02-01 00:01:00 +0800
 selected:       true
 pub:            "IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics (BioRob)"

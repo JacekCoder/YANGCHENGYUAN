@@ -1,5 +1,6 @@
 ---
 title:          "PHRASE: Personalized Human-Robot Interaction Simulation with Accurate Soft Body Modeling for Safe and Ergonomic Gait Assistance"
+link:           "https://jacekcoder.github.io/Bioweb2026/phrase.html"
 date:           2025-10-01 00:01:00 +0800
 selected:       true
 pub:            "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
